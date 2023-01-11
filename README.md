@@ -2,6 +2,46 @@
 
 This tool allows you to download part of a youtube video without downloading the whole thing
 
+## Dependencies
+
+This script requires the `youtube-dl` and `ffmpeg` packages.
+
+### Ubuntu
+```console
+### youtube-dl
+# recommended
+sudo pip install youtube-dl
+# or
+sudo apt install youtube-dl
+
+### ffmpeg
+sudo apt install ffmpeg
+```
+
+### NixOS
+
+#### Using flakes
+
+##### With direnv (ideally with direnv-nix)
+```console
+direnv allow
+```
+
+##### Without direnv
+```console
+nix develop
+```
+
+#### Using nix-shell
+
+```console
+$ nix-shell
+# or
+$ nix-shell shell.nix
+# or
+$ ./shell.sh
+```
+
 ## Usage
 
 ### Show usage
