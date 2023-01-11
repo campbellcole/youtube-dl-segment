@@ -8,7 +8,7 @@ showusage() (
   echo "<start time> and <duration> must obey the following format:"
   echo "MM:SS (ex. 15:00, 00:00, 160:32)"
   echo "IMPORTANT: set the <start time> to 30 seconds BEFORE you"
-  echo "want your snippet to start. This is to ensure an key frame"
+  echo "want your snippet to start. This is to ensure a key frame"
   echo "is grabbed. The 30 seconds will be trimmed off automatically"
   echo
   echo "<output file> can have any extension supported by ffmpeg"
