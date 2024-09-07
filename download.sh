@@ -28,7 +28,7 @@ else
     exit 1
   fi
 
-  OUTPUT="$(youtube-dl --youtube-skip-dash-manifest -g "$YT_URL" 2>/dev/null)"
+  OUTPUT="$(yt-dlp --youtube-skip-dash-manifest -g "$YT_URL" 2>/dev/null)"
 
   readarray -t URLS <<< "$OUTPUT"
 

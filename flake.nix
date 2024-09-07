@@ -21,7 +21,7 @@
       {
         devShells.default = pkgs.mkShell rec {
           nativeBuildInputs = [
-            youtube-dl
+            yt-dlp
             ffmpeg
           ];
         };
